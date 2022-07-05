@@ -1,4 +1,4 @@
-# Ethereum blockchain
+# Ethereum Block Time
 
 Mining
 
