@@ -9,6 +9,7 @@ WHen creating account in MetaMask, it creates
 for Ethereum network.
 
 - Account address is used for identifying you.
-- private and public key together like a password.
+- private and public key together works like a password.
+- private key should not be shared.
 - they are all stored as hexadecimal numbers.
 - the one account created by MetaMask could be used across all Ethereum networks.
