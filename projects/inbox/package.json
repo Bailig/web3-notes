@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "compile:bin": "solcjs --bin --output-dir build contracts/inbox.sol",
-    "compile:abi": "solcjs --abi --output-dir build contracts/inbox.sol"
+    "compile:abi": "solcjs --abi --output-dir build contracts/inbox.sol",
+    "compile": "node  -e 'require(\"./scripts/compile\").compile()'",
+    "test": "node --test tests/"
   },
   "engines": {
     "node": ">=18.0.0"
